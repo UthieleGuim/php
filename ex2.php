@@ -30,7 +30,7 @@ Dica:
 */
 
 $nome	= isset($_POST['nome']) ? trim($_POST['nome']) : "";
-$data_nascimento	= isset($_POST['data-nascimento']) ? $_POST['data-nascimento'] : "";
+$data_nascimento = isset($_POST['data-nascimento']) ? $_POST['data-nascimento'] : "";
 $sexo	= isset($_POST['sexo']) ? $_POST['sexo'] : "";
 
 $mensagem;
